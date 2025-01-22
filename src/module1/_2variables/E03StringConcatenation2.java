@@ -5,5 +5,7 @@ public class E03StringConcatenation2 {
 	//"Favorite color is " with the given variable
 	public static void main(String[] args) {
 		String color = "red";
+		System.out.print(color);
+		
 	}
 }
