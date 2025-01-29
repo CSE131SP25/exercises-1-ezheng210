@@ -1,3 +1,4 @@
+
 package module2._01ifs;
 
 public class E03TestNumbers {
@@ -16,6 +17,9 @@ public class E03TestNumbers {
 		// is it 0?
 		if (number == 0) {
 			System.out.println(number + " is zero!");
+		}
+		if (number < 0) {
+			System.out.println(number + " is negative!");
 		}
 	}
 }
