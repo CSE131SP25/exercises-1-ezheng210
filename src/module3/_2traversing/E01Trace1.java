@@ -10,6 +10,7 @@ public class E01Trace1 {
 		for (int i = 0; i < names.length; i++) {
 			System.out.println( names[i] );
 		}
+		System.out.println(names.length);
 	}
 }
 

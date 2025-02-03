@@ -1,5 +1,7 @@
 package module3._1basics;
 
+import java.util.Arrays;
+
 public class E04ParallelArrays {
 	
 	//Exercise 4: Can you print out Mateo's score?
@@ -13,6 +15,16 @@ public class E04ParallelArrays {
 		// Print corresponding names and scores
 		System.out.println(names[0] + " has a score of " + highScores[0]);
 		System.out.println(names[1] + " has a score of " + highScores[1]);
-	}
+		System.out.println(names[3] + " has a scores of " + highScores[3]);
+		highScores[4] = 97;
+		highScores = Arrays.copyOf(highScores, highScores.length + 1);
+		names = Arrays.copyOf(names, highScores.length + 1);
+		names[5] ="Edna";
+		highScores[5] = 100;
+		for (int i = 0; i < 6; i++)  {
+			System.out.println(names[i] + " has a score of " + highScores[i]);
+			
+		}
+		}
 }
 
